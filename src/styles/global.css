@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -19,4 +21,11 @@
   --text-md: 0.875rem/170% 'Poppins', sans-serif;
   --text-sm: 0.75rem/170% 'Poppins', sans-serif;
 }
+
+body {
+  background-color: var(--surface-color);
+  color: var(--text-primary);
+  font: var(--text-md);
+}
+
 

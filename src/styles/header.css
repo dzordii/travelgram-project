@@ -1,0 +1,42 @@
+.header-container {
+    max-width: 1280px;
+    height: 80px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 1.25rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .nav-container {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        & .nav-list {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            & li {
+                display: flex;
+                align-items: center;
+            }
+
+            & a {
+                color: var(--text-primary);
+                font: var(--text-md);
+            }
+        }
+
+        & .profile-img {
+            width: 40px;
+            object-fit: cover;
+        }
+    }
+
+    & .logo-img {
+        width: 10.125rem;
+    }
+}
