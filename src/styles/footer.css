@@ -1,0 +1,26 @@
+.footer-container {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding: 1.5rem 2rem;
+
+    display: flex;
+
+    & span {
+        color: var(--text-secondary);
+    }
+
+    & .footer-list {
+        margin-left: auto;
+
+        display: flex;
+        gap: 2rem;
+        
+
+        & li a {
+            display: flex;
+            align-items: center;
+            color: var(--text-secondary);
+        }
+    }
+}
