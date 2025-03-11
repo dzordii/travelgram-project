@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  ---brand-color: #EF5F4C;
+
+  --bg-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d4d4d4;
+  --shape-transparency: #ffffff86;
+
+  --text-primary: #313131;
+  --text-secondary: #6c6c6c;
+
+  --heading: bold 2rem/125% 'Poppins', sans-serif;
+  --text-md: 0.875rem/170% 'Poppins', sans-serif;
+  --text-sm: 0.75rem/170% 'Poppins', sans-serif;
+}
+
