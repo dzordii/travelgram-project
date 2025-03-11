@@ -40,3 +40,9 @@
         width: 10.125rem;
     }
 }
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none !important;
+    }
+}

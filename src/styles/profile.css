@@ -17,6 +17,11 @@
             color: var(--text-primary);
             font: var(--heading);
         }
+
+        & p {
+            color: var(--text-secondary);
+            font: var(--text-md);
+        }
     }
 
     & .p-right {
@@ -36,7 +41,29 @@
                 display: flex;
                 align-items: center;
                 gap: .5rem;
+
+                & span {
+                    color: var(--text-secondary);
+                    font: var(--text-md);
+                }
             }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+
+        & .p-left {
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        & .p-right {
+            margin-left: 0;
         }
     }
 }
